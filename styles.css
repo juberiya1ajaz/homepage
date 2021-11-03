@@ -1,0 +1,105 @@
+/*at least five (5) different CSS selectors  total of at least five (5) different CSS properties such as font-size, or margin*/
+button {
+  color: black;
+  padding: 7px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:8px;}
+button:hover {
+  background-color:#404040;
+  color: white;
+}
+.img1 {
+  float: right;
+}
+
+.clearfix::after, .clearfix {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+::selection {
+  color: white;
+  background: black;
+}
+a:hover{
+
+  font-size: 17px;
+
+}
+::marker {
+  color: white;
+  font-size: 27px;}
+.h, #bu{
+  font-family:"Georgia";
+  font-weight: bold;
+  font-size: 17px
+}
+.hobbies{
+    text-align: center;
+}
+#bu{
+   font-size: 20px;
+   position: absolute;
+   bottom: 2px;
+   right: 6px;
+}
+ul.H{
+  font-family:"Georgia";
+  padding: 10px;
+  list-style-type: none;
+  background-color: #ccc;
+  display: inline-block;
+}
+#intr
+{
+  width:10%;
+  height:10%;
+}
+.my
+{
+text-shadow: 2px 2px;
+font-weight: normal;
+}
+h1,h2
+{
+    text-shadow: 2px 2px 5px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+}
+tr:nth-child(even){background-color: #f2f2f2;}
+tr:hover {background-color:#b8b894;}
+table{
+    width:50%;
+    text-align:center;
+    border:3px solid black;
+    padding:4px 4px;
+    margin-left:auto;margin-right:auto;
+}
+.ho, .sa , .index{
+    width:100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: repeat;}
+.ho{
+  background-image: url("https://images2.alphacoders.com/771/77112.jpg");
+    background-size: 113% 100%;
+
+}
+.sa{color:white;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/834/602/559/computer-keyboards-wallpaper-preview.jpg");
+    background-size: 150% 150%;}
+.index{
+  background-image: url("https://thumbs.dreamstime.com/b/grey-white-abstract-background-geometry-shine-layer-element-vector-presentation-design-suit-business-corporate-institution-204368345.jpg");
+  background-size: 150% 150%;
+}
+
+a.s,a.s:visited{ font-weight: 600;color: white;}
